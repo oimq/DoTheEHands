@@ -28,8 +28,12 @@ This project take a 3-parts
 
 ##### Filtering formula from sensing
 
-Periodic convolution products and step summations
+* Periodic convolution products and step summations
 ![dteh3](./imgs/dteh3.png)
+
+* 4 - Fully Connected Layers (4-FCN), Time-invariant system
+
+![dteh4](./imgs/dteh4.png)
 
 Sensing : ./sensing/sketch_apr18a/sketch_apr18a.ino
 
@@ -40,6 +44,10 @@ Simulating : ./SignalGenerator.py
 ---
 
 ### Results
+
+Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, RAM 8GB
+
+500 times, 43 seconds learning, accuracy : 62.89%
 
 ![dteh2](./imgs/dteh2.png)
 
