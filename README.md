@@ -26,12 +26,22 @@ This project take a 3-parts
 
 ![dteh1](./imgs/dteh1.png)
 
+##### Filtering formula from sensing
+
+Periodic convolution products and step summations
+![dteh3](./imgs/dteh3.png)
 
 Sensing : ./sensing/sketch_apr18a/sketch_apr18a.ino
 
 Learning : ./SignalAnalyzer.py
 
 Simulating : ./SignalGenerator.py
+
+---
+
+### Results
+
+![dteh2](./imgs/dteh2.png)
 
 ---
 
