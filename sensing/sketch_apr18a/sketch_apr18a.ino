@@ -32,11 +32,11 @@ int histime = 0;
 void loop() {
     timeStamp = micros();
     int Value = analogRead(SensorInputPin);
-    int grad = (history - Value)/(histime-timeStamp);
+    //int grad = (history - Value)/(histime-timeStamp);
     if (TIMING_DEBUG) {
         Serial.println(abs(Value));
     }
     history = Value;
-    histime = micros();
+    //histime = micros();
     delayMicroseconds(500);
 }
